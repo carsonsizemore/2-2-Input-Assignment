@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-2 Input Assignment</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <img id= "tate" src="Images/Tate.png" alt="Cut out image of Tate Mcrae's face">
+        <h1 id="word">Hey Tater Tots!</h1>
+    </ul>
+    <p>
+        <label for="word-input">Text</label>
+        <input id="word-input" type="text" placeholder="type something" />
+    </p>
+    <p>
+        <label for="background-color">Background color</label>
+        <input id="background-color" type="color" value="#ffffff" />
+        <output for="background-color"></output>
+    </p>
+    <p>
+        <label for="text-x">Text x</label>
+        <input id="text-x" type="range" min="0" max="1000" value="200" />
+        <label for="text-y">Text y</label>
+        <input id="text-y" type="range" min="0" max="600" value="110" />
+    </p>
+    <p>
+        <label for="text-size">Text Size</label>
+        <input id="text-size" type="range" min="0" max="400" value="5">
+    </p>
+    <p>
+        <label for="tate-x">Tate x</label>
+        <input id="tate-x" type="range" min="0" max="1000" value="200" />
+        <label for="tate-y">Tate y</label>
+        <input id="tate-y" type="range" min="0" max="600" value="110" />
+    </p>
+    <p>
+        <label for="tate-size">Tate Size</label>
+        <input id="tate-size" type="range" min="0" max="1800" value="300">
+    </p>
+    <script src="script.js"></script>
+</body>
+</html>
